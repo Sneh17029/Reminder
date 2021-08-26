@@ -4,9 +4,9 @@ mixer.init()
 
 
 def stop(s):
-    f = input(f"Enter E{s}DONE when drank: ")
+    f = input(f"Enter E{s}DONE when done: ")
     while f.upper() != f"E{s}DONE":
-        f = input(f"Enter E{s}DONE when drank: ")
+        f = input(f"Enter E{s}DONE when done: ")
     mixer.music.stop()
     return
 
