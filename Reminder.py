@@ -26,7 +26,7 @@ def office(officetime):
             m = int(input("Enter amount of water drank in \"ml\": "))
             stop("W")
             n = n-m
-            if n == 0:
+            if n <= 0:
                 print("All done with your target: ")
             else:
                 print("Remaining= ", n)
